@@ -1,0 +1,27 @@
+n=int(input())
+l=[]
+t=[]
+for i in range (n):
+  x=int(input())
+  l.append(x)
+x=0
+c=0
+for i in range(n):
+  if l[i]>0:
+    c+=1
+    t.append(l[i])
+    x=x+1
+for i in range(x,n):
+   t.append(x)
+print(t)
+print(c)
+
+output:
+5
+0
+0
+14
+3
+6
+[14, 3, 6, 3, 3]
+3
