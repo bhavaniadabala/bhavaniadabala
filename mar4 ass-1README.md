@@ -1,0 +1,11 @@
+list = [1,2,1,4]  
+new = [] 
+for a in list: 
+    n = list.count(a)
+    if n > 1:         
+      if new.count(a)==0:  
+        new.append(a)
+print(new)
+
+output:
+1
