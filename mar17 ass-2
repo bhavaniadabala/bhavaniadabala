@@ -1,0 +1,22 @@
+n=input()
+l=0
+u=0
+d=0
+s=0
+for i in n:
+	if (i.islower()):
+		l+=1
+	elif (i.isupper()):
+		u+=1
+	elif (i.isdigit()):
+		d+=1
+	else:
+		s+=1
+if (l>=1 and u>=1 and d>=1 and s>=1 ):
+	print('valid password')
+else:
+	print('not valid')
+  
+output:
+Aditya@1234
+valid password
