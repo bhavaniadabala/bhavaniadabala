@@ -1,0 +1,17 @@
+s={1:[1,'Bhavani','female','MSCs','pass'],2:[2,'Jaanu','female','MECs','pass'],3:[3,'sai','male','MPCs','pass'],4:[4,'manikanta','male','MPC','fail']}
+x=int(input('enter the number:'))
+print('student Roll Number:',s[x][0])
+print('Name of the student:',s[x][1])
+print('Gender:',s[x][2])
+print('Group:',s[x][3])
+print('Result:',s[x][4])
+
+output:
+enter the number:
+1
+student Roll Number: 1
+Name of the student: Bhavani
+Gender: female
+Group: MSCs
+Result:pass
+
