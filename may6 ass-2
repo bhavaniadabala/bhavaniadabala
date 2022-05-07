@@ -1,0 +1,17 @@
+e={1:[20384,'Bhavani Adabala','Manager',25000,'Tadepalligudem'],2:[20385,'Alekhya','Ass Manager',20000,'Ganapavaram'],3:[20843,'sai Adabala','CEO',100000,'Bhuvanapalli'],4:[28753,'manikanta','clerk',10000,'Gudem']}
+x=int(input('enter the number:'))
+print('Employee Id:',e[x][0])
+print('Employee Name:',e[x][1])
+print('Employee Designation:',e[x][2])
+print('salary:',e[x][3])
+print('city:',e[x][4])
+
+output:
+   
+enter the number:
+3
+Employee Id: 20843
+Employee Name: sai Adabala
+Employee Designation: CEO
+salary: 100000
+city: Bhuvanapalli
